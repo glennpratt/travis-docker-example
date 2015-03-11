@@ -63,4 +63,4 @@ docker -d &
 sleep 5
 
 # Use docker
-docker run ubuntu /bin/echo hello world
+docker run ubuntu lsb_release -a
